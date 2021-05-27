@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "nunito";
+    src: url(fonts/NunitoSans-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: yeseva;
+    src: url(fonts/YesevaOne-Regular.ttf);
+}
+
+.body {
+    margin: 0;
+    font-family: "nunito";
+}
+
+.body * {
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-height: 1440px;
+    margin: 0 auto;
+}
+
+.button-one {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 184px;
+}
+
+.logo {
+    color: #E3B873;
+
+}
+
+.header {
+    background-color: black;
+
+
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+
+}
+
+.header-navigation__item {
+    margin-right: 47px;
+}
+
+.header-navigation__item a {
+    text-decoration: none;
+    color: white;
+    font-family: "nunito";
+
+}
+
+.phone {
+
+    font-family: "nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-decoration-line: underline;
+
+    color: #E3B873;
+
+
+}
+
+.table {
+    background-image: url(../image/table.jpg);
+    background-size: cover;
+    height: 707px;
+    padding-top: 277px;
+    position: relative;
+    padding-left: 134px;
+    padding-right: 629px;
+
+}
+
+.table-overlay {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+
+}
+
+.table-container {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    margin: 0%;
+    font-family: "yeseva";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.text-first-page {
+    font-family: nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+.button-two {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    height: 51px;
+    width: 207px;
+    outline: 0;
+    border: 0;
+    font-family: "nunito";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
