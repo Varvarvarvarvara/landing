@@ -24,6 +24,7 @@
 .container {
     max-width: 1438px;
     margin: 0 auto;
+    position: relative;
 
 }
 
@@ -185,7 +186,7 @@
     background-color: black;
     background-size: cover;
     height: 707px;
-    padding-top: 99px;
+
     position: relative;
 
 
@@ -196,10 +197,10 @@
     width: 623px;
     height: 24px;
     padding-left: 626px;
-
+    margin-top: 0px;
     display: flex;
     justify-content: space-between;
-
+padding-top: 107px;
     align-items: center;
 
     font-family: "yeseva";
@@ -442,7 +443,7 @@
 }
 
 .clue {
-    
+
     border: 1px solid rgba(54, 54, 54, 0.3);
     box-sizing: border-box;
     border-left: none;
@@ -459,7 +460,7 @@
 }
 
 .submit {
-  
+
     height: 51px;
     width: 200px;
     background: #E3B873;
@@ -481,56 +482,129 @@
 }
 
 .agreement {
-    
+
 
     font-family: "nunito";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: or 23px;
+    line-height: 23px;
 
 
     color: #181818;
 
 
 }
+
 .agreementplus {
     justify-content: center;
     padding-left: 170px;
     width: 285px;
     margin-top: 37px;
-    
+
 }
-.checkbox {
-    background: #E3B873;
-border-radius: 1px;
+
+/* checkbox customization*/
+/* The container */
+.checkbox-container {
+    display: flex;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    user-select: none;
+    align-items: center;
 }
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+    position: absolute;
+    opacity: 100;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked~.checkmark {
+    background-color: #E3B873;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+    left: 6px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .repair {
     margin-top: 782px;
     width: 1439px;
-height: 1851px;
-    margin-left: 103px;
+    height: 1851px;
+
     background-size: cover;
     height: 325px;
 
-    
+
 }
 
 
 
 .black-text {
-    
+
     justify-content: center;
     font-family: "yeseva";
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 28px;
-margin-left: 500px;
-text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 590px;
+    text-transform: uppercase;
 
-color: #181818;
+    color: #181818;
 }
 
 .things {
