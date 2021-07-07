@@ -197,22 +197,23 @@
 
     width: 623px;
     height: 24px;
-    padding-left: 626px;
+    /* padding-left: 626px; */
+    position: relative;
+   
+    left: 50%;
     margin-top: 0px;
     display: flex;
     justify-content: space-between;
     padding-top: 107px;
     align-items: center;
-
     font-family: "yeseva";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
+    list-style: none;
     text-transform: uppercase;
-
     color: rgba(255, 255, 255, 0.3);
-
 
 }
 
@@ -225,12 +226,14 @@
 
 }
 
+
+
 .list-two__item a {
-    color: #FFFFFF;
-    /* Цвет обычной ссылки */
+    color: #ffffff8c !important;
     text-decoration: none;
-    /* Убираем подчеркивание у ссылок */
+    
 }
+
 
 .list-two__item a:visited {
     color: #E3B873;
