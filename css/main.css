@@ -598,9 +598,9 @@
 
 .repair {
 
-   
+
     background-size: cover;
-  
+
 
 
 }
@@ -679,35 +679,36 @@
 h3.price-from1 {
     background: #E3B873;
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
-   
+
     width: 228px;
- position: absolute;
+    position: absolute;
     margin-left: 77px;
     z-index: 12;
     margin-top: 115px;
     padding: 0%;
     font-family: "yeseva";
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 25px;
-text-transform: uppercase;
-text-align: center;
-padding-top: 17px;
-padding-bottom: 17px;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    color: #FFFFFF;
 
 
 }
 
 .contact-us {
 
-    
- padding-top: 124px;
+
+    padding-top: 124px;
 
 
 
 }
+
 .contact {
     margin-top: 124px;
     width: 1256px;
@@ -716,46 +717,48 @@ color: #FFFFFF;
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .sketch-pic {
     z-index: 10;
 
 }
+
 .list-of-process {
     z-index: 11;
     width: 527px;
     padding-left: 307px;
     margin: 0px;
-   
-}
-.ball {
 
 }
+
+.ball {}
+
 .paragraph {
-    
+
     display: flex;
     padding-top: 117px;
     z-index: 11;
     width: 374px;
     height: 50px;
     font-family: Nunito Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 19px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
 
-color: #363636;
+    color: #363636;
 }
 
 
-.ball{
+.ball {
     background-color: #E3B873;
     border-radius: 50%;
     height: 41px;
     width: 41px;
     text-align: center;
-    vertical-align: ;
-   border: 8px solid #FFFFFF;
-   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
 
-   
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+
+
 }
