@@ -197,10 +197,10 @@
 
     width: 623px;
     height: 24px;
-    /* padding-left: 626px; */
+
     position: relative;
-   
-    left: 50%;
+
+    left: 43%;
     margin-top: 0px;
     display: flex;
     justify-content: space-between;
@@ -231,21 +231,16 @@
 .list-two__item a {
     color: #ffffff8c !important;
     text-decoration: none;
-    
-}
 
-
-.list-two__item a:visited {
-    color: #E3B873;
-    /* Цвет посещённой ссылки */
 }
 
 .list-two__item a:hover {
-    color: #800000;
-    /* Цвет ссылки при наведении на нее курсора мыши */
+    color: #E3B873 !important;
     text-decoration: underline;
-    /* Добавляем подчеркивание */
 }
+
+
+
 
 
 .completed-projects {
@@ -303,6 +298,11 @@
     margin-top: 53px;
 }
 
+.pad {
+    padding-left: 134px;
+    padding-right: 134px
+}
+
 .five {
     display: flex;
     justify-content: space-between;
@@ -331,17 +331,20 @@
 
 .man {
 
-    margin-top: -150px;
-    background-size: cover;
-    height: 325px;
 
+    height: 680px;
     position: relative;
-
 
 
 }
 
-.container-three {}
+.container-three {
+    position: absolute;
+    top: -60%;
+    left: 0;
+    right: 0;
+
+}
 
 .white-text {
     padding-top: 94px;
@@ -362,17 +365,15 @@
 
     color: #E3B873;
     display: flex;
-    margin-left: 664px;
-
+    justify-content: center;
 }
 
 .video {
-    margin-left: 311px;
+    margin-left: 21%;
     margin-top: 31px;
     height: 434px;
     width: 817px;
     position: relative;
-
 
 }
 
@@ -408,6 +409,7 @@
 .text-man-div {
     display: flex;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .text-man {
@@ -425,10 +427,9 @@
 }
 
 .form-wrap {
-    margin-top: 93px;
-    margin-left: 316px;
-    margin-right: 335px;
 
+    width: 873px;
+    margin: 0 auto;
 }
 
 .form-wrapp {
@@ -448,7 +449,6 @@
 }
 
 .clue {
-
     border: 1px solid rgba(54, 54, 54, 0.3);
     box-sizing: border-box;
     border-left: none;
@@ -460,8 +460,8 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 23px;
-
     color: #363636;
+    width: 231px;
 }
 
 .submit {
@@ -489,7 +489,7 @@
 .agreement {
 
 
-    font-family: "nunito";
+
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -571,27 +571,36 @@
     border: solid white;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
+    margin-bottom: 0%;
 }
 
 
 
+.label {
+    margin-bottom: 0%;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 80px;
+    padding-right: 80px;
+}
 
 
 
-
-
-
-
-
+.repair-box img {
+    width: 392px;
+    height: 421px;
+    padding-top: 30px;
+}
 
 
 .repair {
-    margin-top: 782px;
-    width: 1439px;
-    height: 1851px;
 
+   
     background-size: cover;
-    height: 325px;
+  
 
 
 }
@@ -600,21 +609,153 @@
 
 .black-text {
 
-    justify-content: center;
+    padding-top: 147px;
     font-family: "yeseva";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
-    margin-left: 590px;
+    margin-top: 0%;
     text-transform: uppercase;
-
     color: #181818;
+    text-align: center;
+
 }
 
 .things {
 
     color: #E3B873;
     display: flex;
-    margin-left: 564px;
+    justify-content: center;
+}
+
+
+
+.repair-box {
+    position: relative;
+}
+
+.square-box {
+    position: absolute;
+    top: 288px;
+    left: 8px;
+    z-index: 10;
+}
+
+.repair-box h1 {
+    padding-top: 42px;
+
+    padding-left: 102px;
+    position: absolute;
+    top: 288px;
+    left: 8px;
+    z-index: 11;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #363636;
+
+}
+
+.repair-box ul {
+    padding-top: 70px;
+    padding-left: 100px;
+    position: absolute;
+    top: 288px;
+    left: 8px;
+    z-index: 11;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+
+    color: #959595;
+}
+
+h3.price-from1 {
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+   
+    width: 228px;
+ position: absolute;
+    margin-left: 77px;
+    z-index: 12;
+    margin-top: 115px;
+    padding: 0%;
+    font-family: "yeseva";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+text-align: center;
+padding-top: 17px;
+padding-bottom: 17px;
+color: #FFFFFF;
+
+
+}
+
+.contact-us {
+
+    
+ padding-top: 124px;
+
+
+
+}
+.contact {
+    margin-top: 124px;
+    width: 1256px;
+    height: 645px;
+    background-image: url("../image/sketch.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sketch-pic {
+    z-index: 10;
+
+}
+.list-of-process {
+    z-index: 11;
+    width: 527px;
+    padding-left: 307px;
+    margin: 0px;
+   
+}
+.ball {
+
+}
+.paragraph {
+    
+    display: flex;
+    padding-top: 117px;
+    z-index: 11;
+    width: 374px;
+    height: 50px;
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+
+color: #363636;
+}
+
+
+.ball{
+    background-color: #E3B873;
+    border-radius: 50%;
+    height: 41px;
+    width: 41px;
+    text-align: center;
+    vertical-align: ;
+   border: 8px solid #FFFFFF;
+   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+
+   
 }
