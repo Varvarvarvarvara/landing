@@ -768,10 +768,10 @@ h3.price-from1 {
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
-    line-height: 38px;  
-    
+    line-height: 38px;
+
     color: #FFFFFF;
-    
+
 
 }
 
@@ -788,52 +788,65 @@ h3.price-from1 {
 
 .form-div {
     background: #131313;
-box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
-width: 506px;
-height: 509px;
-margin-top: 106px;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    width: 506px;
+    height: 509px;
+    margin-top: 106px;
 
 }
 
 .namephone2 {
     font-family: Nunito Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 21px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
 
-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
+
 .decor h3 {
     font-family: "nunito";
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 26px;
-text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
 }
+
 .agreementplus .agreement {
-   
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 163.68%;
-/* or 23px */
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 163.68%;
+    /* or 23px */
 
 
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
+
 .decor .agreementplus {
     margin-left: 49px;
-padding-left: 0%;
+    padding-left: 0%;
 }
+
 .decor div {
     margin-left: 49px;
 }
+
 .input:checked~.checkmark:after {
     display: block;
+}
+.decor .submit{
+    margin-left: 222px;
+    margin-top: 39px;
+    padding: 0%;
+}
+.decor .checkbox-container {
+    margin-bottom: 0px;
 }
