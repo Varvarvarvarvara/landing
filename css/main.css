@@ -449,19 +449,21 @@
 }
 
 .clue {
-    border: 1px solid rgba(54, 54, 54, 0.3);
+    /* border: 1px solid rgba(54, 54, 54, 0.3); */
     box-sizing: border-box;
     border-left: none;
     border-right: none;
     border-top: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0, 15);
     margin-top: 7px;
     font-family: "nunito";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 23px;
-    color: #363636;
-    width: 231px;
+    line-height: 30px;
+    color: #fff;
+    width: 408px;
+    background-color: #131313;
 }
 
 .submit {
@@ -700,22 +702,24 @@ h3.price-from1 {
 
 }
 
+
+
 .contact-us {
-
-
-    padding-top: 124px;
-
-
-
+    /* padding-top: 124px; */
+    background-image: url(../image/sketch.png);
+    background-repeat: no-repeat;
 }
+
+
+
 
 .contact {
     margin-top: 230px;
-    width: 1256px;
+    /* width: 1256px; */
     height: 645px;
-    background-image: url("../image/sketch.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+    /* background-image: url(../image/sketch.png); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
     display: flex;
     justify-content: space-around;
 }
@@ -728,11 +732,8 @@ h3.price-from1 {
 .list-of-process {
     z-index: 11;
     width: 527px;
-    padding-left: 290px;
+    /* padding-left: 1px; */
     margin: 0px;
-
-
-
 }
 
 .ball {}
@@ -817,17 +818,16 @@ h3.price-from1 {
 
 }
 
-.agreementplus .agreement {
+.decor .agreement {
 
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 163.68%;
-    /* or 23px */
 
 
 
-    color: #FFFFFF;
+    color: white;
 }
 
 .decor .agreementplus {
@@ -837,19 +837,142 @@ h3.price-from1 {
 
 .decor div {
     margin-left: 49px;
+    margin-top: 30px;
 }
 
 .input:checked~.checkmark:after {
     display: block;
 }
-.decor .submit{
+
+.decor .submit {
     margin-left: 222px;
     margin-top: 39px;
     padding: 0%;
 }
+
 .decor .checkbox-container {
     margin-bottom: 0px;
 }
+
 .pig {
     margin-top: 38px;
+
+    display: flex;
 }
+
+.pig-text {
+    font-family: "nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #E3B873;
+
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+
+}
+
+.fantasy {
+
+    background-image: url(../image/carpet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fantasies {
+    margin-top: 242px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 10;
+}
+
+.fantasy-overlay {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+
+}
+
+.list-of-fantasies h1 {
+    font-family: "yeseva";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+
+    color: #E3B873;
+    margin-left: 99px;
+    margin-top: 137px;
+    margin-bottom: 0px;
+}
+
+.fantasy-styles {
+    font-family: "nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+    list-style: none;
+    display: flex;
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+    font-family: "nunito";
+
+
+}
+
+.wildest-fantasies a {
+
+    font-family: "nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 38px;
+
+
+    color: #FFFFFF;
+
+}
+
+.wildest-fantasies {
+    padding-top: 47px;
+    padding-left: 0%;
+    margin-left: 99px;
+    margin-top: 0px;
+}
+
+.wildest-fantasies a:hover {
+
+    color: #E3B873;
+}
+
+.fantasy-styles {
+    padding-bottom: 25px;
+}
+
+/*
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+    font-size: 11px;
+
+}
+
+.header-navigation__item {
+    margin-right: 47px;
+}
+
+.header-navigation__item a {
+    text-decoration: none;
+    color: white;
+    font-family: "nunito";
+
+}
+*/
