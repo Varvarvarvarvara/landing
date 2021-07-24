@@ -955,10 +955,7 @@ h3.price-from1 {
     color: #E3B873;
 }
 
-.fantasy-styles {
-
-
-}
+.fantasy-styles {}
 
 .clock {
     margin-left: 587px;
@@ -978,17 +975,185 @@ h3.price-from1 {
     position: absolute;
     bottom: 700px;
     right: 100px;
- 
+
 }
 
 
 .flower {
 
     right: 100px;
-    
+
     position: absolute;
     bottom: 39px;
+
+
+
+}
+
+.ourclients {
+    height: 872px;
+
+}
+
+.ourclients h1 {
+    width: 257px;
+    margin-top: 110px;
+    margin-left: 592px;
+    font-family: "yeseva";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #181818;
+
+}
+
+.hands {
+    margin-left: 665px;
+}
+
+.ourclients h2 {
+    font-family: "nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #363636;
+}
+
+.maria {
+    padding-left: 123px;
+
+}
+
+.maria h3 {
+    margin-left: 102px;
+    margin-top: -59px;
+    margin-bottom: 0px;
+
+}
+
+.maria h4 {
+    margin: 0px;
+    padding-top: 39px;
+    font-family: "nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 180%;
+    /* or 23px */
+
+
+    color: #959595;
+
+}
+
+.maria-sergei-egor {
+    width: 1236px;
+    height: 455px;
+    display: flex;
+}
+
+.tasks {
+    margin-top: 63px
+}
+
+.city-1 {
+    background-size: contain;
+    padding-top: 105px;
+    height: 354px;
+    background-image: url(../image/city.png);
+    background-repeat: repeat;
+    position: relative;
+    z-index: -1;
+
+}
+
+.city-overlay {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    position: relative;
+    z-index: -1;
+}
+
+.last {
+    margin-top: 210px;
+    height: 953px;
+    background-image: url(../image/last-pic.png);
+    position: relative;
+    z-index: -1;
+}
+
+.last-overlay {
+    background-image: url(../image/gardient-1.png);
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+
+}
+
+.form-last .form-div {
+
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    width: 883px;
+    height: 445px;
+    margin-top: -288px;
+    margin-left: 288px;
+  
+
+}
+
+.form-last .form-div h3 {
+    margin-top: 34px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.last-overlay h1 {
+    font-family: "yeseva";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #E3B873;
+    padding-top: 274px;
+}
+
+.address {
+    margin-left: 689px;
+    height: 28px;
+    width: 71px;
+    margin-top: 52px;
+}
+.map {
+    margin-top: 30px;
+    margin-left: 288px;
+}
+.header-content2 {
+    display: flex;
+    justify-content: space-between;
+    height: 133px;
+    align-items: center;
+}
+.decor .submit {
+    margin-left: 341px;
     
-
-
 }
